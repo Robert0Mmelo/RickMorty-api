@@ -1,0 +1,18 @@
+.container-custom2 {
+    display: flex;
+    flex-direction: column;  /* Empilha os elementos verticalmente */
+    align-items: flex-start;  /* Alinha os itens à esquerda */
+  }
+  
+  .container-custom2 img {
+    max-width: 100%;  /* Garante que a imagem não ultrapasse a largura da coluna */
+    margin-bottom: 20px;  /* Adiciona espaçamento abaixo da imagem */
+  }
+  
+  .container-custom2 h1, .container-custom2 p {
+    word-wrap: break-word;  /* Faz com que o texto quebre quando não houver espaço */
+    overflow-wrap: break-word;  /* Força o texto a quebrar caso a palavra não caiba */
+    margin: 0;  /* Remove a margem para evitar quebras indesejadas */
+    padding: 0;  /* Remove o padding extra */
+  }
+  
