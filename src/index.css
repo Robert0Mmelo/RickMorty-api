@@ -10,9 +10,9 @@
   }
   
   .container-custom2 h1, .container-custom2 p {
-    word-wrap: break-word;  /* Faz com que o texto quebre quando não houver espaço */
-    overflow-wrap: break-word;  /* Força o texto a quebrar caso a palavra não caiba */
-    margin: 0;  /* Remove a margem para evitar quebras indesejadas */
-    padding: 0;  /* Remove o padding extra */
+    word-wrap: break-word;  
+    overflow-wrap: break-word;  
+    margin: 0;  
+    padding: 0; 
   }
   
